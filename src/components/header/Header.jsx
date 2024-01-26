@@ -33,9 +33,9 @@ const Header = () => {
         }`}
       >
         <div className="flex items-center justify-between p-4">
-          <Image
-            width={500}
-            height={500}
+          <img
+            // width={500}
+            // height={500}
             src="/img/logo.png"
             alt="logo"
             className="w-60 h-auto"
