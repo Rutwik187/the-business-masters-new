@@ -36,9 +36,9 @@ const Header = () => {
           <Image
             width={500}
             height={500}
-            src="/img/icons/logo.png"
+            src="/img/logo.png"
             alt="logo"
-            className="w-80 h-8"
+            className="w-60 h-auto"
           />
           <div className="flex gap-4">
             <Image

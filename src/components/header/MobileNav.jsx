@@ -7,7 +7,7 @@ const MobileNav = () => {
     <nav className="md:hidden block">
       <Sheet>
         <SheetTrigger className="align-middle h-full">
-          <Menu className="my-auto mx-4 " />
+          <Menu className="my-auto mx-4" color="#FFFFFF" />
         </SheetTrigger>
         <SheetContent
           side="left"
