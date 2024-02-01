@@ -15,8 +15,8 @@ import Image from "next/image";
 const Slider = () => {
   return (
     <Container className="p-0">
-      <div className="flex items-center gap-11 mt-36 w-full">
-        <h1 className="mx-auto text-xl font-bold">AMERICAS EDITIONS</h1>
+      <div className="flex items-center justify-evenly  gap-11 mt-36 w-full">
+        <h1 className=" text-xl font-bold">AMERICAS EDITIONS</h1>
         <p className=" line-clamp-3 max-w-prose overflow-hidden">
           As a region has developed rapidly with a Rising Economy. With a strong
           desire to start a business, American individuals have risen as the

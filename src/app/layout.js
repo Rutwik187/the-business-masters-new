@@ -2,6 +2,10 @@ import { Inter, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Slider from "@/components/slider/Slider";
+import MagazineList from "@/components/Cards/magazineList";
+import MagazineList2 from "@/components/Cards/magazineList2";
+import BusBulletins from "@/components/Cards/BusBulletins";
+import VerticalCards from "@/components/Cards/verticalCards";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto_Condensed({
@@ -20,6 +24,10 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <Header />
         <Slider />
+        <VerticalCards />
+        <MagazineList />
+        <MagazineList2 />
+        <BusBulletins />
         <div>{children}</div>
       </body>
     </html>
