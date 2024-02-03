@@ -6,6 +6,7 @@ import MagazineList from "@/components/Cards/magazineList";
 import MagazineList2 from "@/components/Cards/magazineList2";
 import BusBulletins from "@/components/Cards/BusBulletins";
 import VerticalCards from "@/components/Cards/verticalCards";
+import Details from "@/components/Details/Details";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto_Condensed({
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <MagazineList />
         <MagazineList2 />
         <BusBulletins />
+        <Details />
         <div>{children}</div>
       </body>
     </html>
