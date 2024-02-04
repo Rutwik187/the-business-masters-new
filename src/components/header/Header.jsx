@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`w-full bg-white border-b  fixed top-0 transition-transform ${
+        className={`w-full bg-white border-b  fixed top-0 transition-transform z-50 ${
           visible ? "translate-y-0" : "-translate-y-full"
         }`}
       >

@@ -24,12 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={roboto.className}>
         <Header />
-        <Slider />
-        <VerticalCards />
-        <MagazineList />
-        <MagazineList2 />
-        <BusBulletins />
-        <Details />
+
         <div>{children}</div>
       </body>
     </html>

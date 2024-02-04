@@ -1,7 +1,7 @@
 // components/MagazineList.js
 import React from "react";
 
-const MagazineList = () => {
+const MagazineList2 = () => {
   return (
     <div className="relative mx-auto my-10 max-w-screen-xl  p-0  ">
       <div className="mb-5 h-[1px]  bg-black"></div>
@@ -144,4 +144,4 @@ const MagazineList = () => {
   );
 };
 
-export default MagazineList;
+export default MagazineList2;

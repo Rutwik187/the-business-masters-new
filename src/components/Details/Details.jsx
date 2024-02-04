@@ -1,22 +1,20 @@
-import React from "react";
-
 function Details() {
   return (
     <div>
-      <div class="bg-gray-50 py-6">
-        <div class="xl:container mx-auto px-3 sm:px-4 xl:px-2">
-          <div class="flex flex-row flex-wrap">
-            <div class="flex-shrink max-w-full w-full lg:w-2/3  overflow-hidden">
-              <div class="w-full py-3 mb-3">
-                <h2 class="text-gray-800 text-3xl font-bold">
-                  <span class="inline-block h-5 border-l-3 border-red-600 mr-2"></span>{" "}
+      <div className="bg-gray-50 py-6">
+        <div className="xl:container mx-auto px-3 sm:px-4 xl:px-2">
+          <div className="flex flex-row flex-wrap">
+            <div className="flex-shrink max-w-full w-full lg:w-2/3  overflow-hidden">
+              <div className="w-full py-3 mb-3">
+                <h2 className="text-gray-800 text-3xl font-bold">
+                  <span className="inline-block h-5 border-l-3 border-red-600 mr-2"></span>{" "}
                   About Us
                 </h2>
               </div>
-              <div class="flex flex-row flex-wrap -mx-3">
-                <div class="max-w-full w-full px-4">
-                  <div class="leading-relaxed pb-4">
-                    <p class="mb-5">
+              <div className="flex flex-row flex-wrap -mx-3">
+                <div className="max-w-full w-full px-4">
+                  <div className="leading-relaxed pb-4">
+                    <p className="mb-5">
                       Aenean sodales lacus est, at ultricies augue ele ifend sit
                       amet. <ins>Be yourself</ins> everyone else is already
                       taken, sem mi placerat felis, ac suscip ligula ex id
@@ -24,70 +22,70 @@ function Details() {
                       varius natoque penatibus et magnis dis parturient montes.
                     </p>
 
-                    <h2 class="w-full float-left text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                    <h2 className="w-full float-left text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
                       Start your Morning with Smiles
                     </h2>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Integer egestas ipsum eget metus sodales consectetur.
                       Nullam ultricies posuere cursus. Duis vitae lorem porta,
                       venenatis nibh ac, laoreet massa. Nam risus lacus, porta
                       eu diam id, fringilla porta risus. Aenean sit amet
                       malesuada diam.
                     </p>
-                    <figure class="text-center mb-6">
+                    <figure className="text-center mb-6">
                       <img
-                        class="max-w-full h-auto"
+                        className="max-w-full h-auto"
                         src="src/img/dummy/post1.jpg"
                         alt="Image description"
                       />
                       <figcaption> Type here your description</figcaption>
                     </figure>
-                    <h3 class="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                    <h3 className="text-2xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
                       Ordered and unordered list
                     </h3>
-                    <ul class="pl-8 mb-4">
-                      <li class="list-disc list-inside">
+                    <ul className="pl-8 mb-4">
+                      <li className="list-disc list-inside">
                         At vero eos et accusamus et iusto odio dignissimos
                         ducimus qui blanditiis praesentium
-                        <ol class="pl-8 mb-4">
-                          <li class="list-decimal list-inside">
+                        <ol className="pl-8 mb-4">
+                          <li className="list-decimal list-inside">
                             Itaque earum rerum hic tenetur a sapiente delectus
                           </li>
-                          <li class="list-decimal list-inside">
+                          <li className="list-decimal list-inside">
                             which of us ever undertakes laborious physical
                             exercise
                           </li>
                         </ol>
                       </li>
-                      <li class="list-disc list-inside">
+                      <li className="list-disc list-inside">
                         Et harum quidem rerum facilis est et expedita distinctio
                       </li>
-                      <li class="list-disc list-inside">
+                      <li className="list-disc list-inside">
                         Itaque earum rerum hic tenetur a sapiente delectus
                       </li>
-                      <li class="list-disc list-inside">
+                      <li className="list-disc list-inside">
                         which of us ever undertakes laborious physical exercise
                       </li>
                     </ul>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Cras justo velit, ultrices vel vehicula eu, viverra in
                       turpis. Donec lobortis at lorem ac semper. Mauris
                       malesuada ligula in interdum pharetra. Interdum et
                       malesuada fames ac ante ipsum primis in faucibus.
                     </p>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Integer egestas ipsum eget metus sodales consectetur.
                       Nullam ultricies posuere cursus. Duis vitae lorem porta,
                       venenatis nibh ac, laoreet massa. Nam risus lacus, porta
                       eu diam id, fringilla porta risus. Aenean sit amet
                       malesuada diam.
                     </p>
-                    <blockquote class="relative p-4 border-l-4 border-red-700 bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40 mb-4 text-xl">
-                      <span class="absolute opacity-80 w-8 h-8">
+                    <blockquote className="relative p-4 border-l-4 border-red-700 bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40 mb-4 text-xl">
+                      <span className="absolute opacity-80 w-8 h-8">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="text-red-700"
+                          className="text-red-700"
                           viewBox="0 0 270.000000 270.000000"
                         >
                           <g
@@ -100,15 +98,15 @@ function Details() {
                           </g>
                         </svg>
                       </span>
-                      <p class="ml-16 mb-4">
+                      <p className="ml-16 mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Integer posuere erat a ante.
                       </p>
-                      <footer class="ml-16 text-base">
+                      <footer className="ml-16 text-base">
                         Quote by <cite title="Source Title">Ari Budin</cite>
                       </footer>
                     </blockquote>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Vivamus purus orci, molestie vel erat sed, consectetur
                       posuere ligula. Vestibulum <br /> iaculis dignissim
                       laoreet. Cras tincidunt always have Paris, at lobortis
@@ -118,27 +116,27 @@ function Details() {
                       elit a els.
                     </p>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Cras justo velit, ultrices vel vehicula eu, viverra in
                       turpis. Donec lobortis at lorem ac semper. Mauris
                       malesuada ligula in interdum pharetra. Interdum et
                       malesuada fames ac ante ipsum primis in faucibus.
                     </p>
-                    <figure class="lg:float-left text-center lg:text-left ml-0 lg:-ml-4 mr-7 mb-7">
+                    <figure className="lg:float-left text-center lg:text-left ml-0 lg:-ml-4 mr-7 mb-7">
                       <img
-                        class="max-w-full h-auto mx-auto"
+                        className="max-w-full h-auto mx-auto"
                         src="src/img/dummy/post2.jpg"
                         alt="Image description"
                       />
                       <figcaption>Align left images</figcaption>
                     </figure>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Morbi at lacinia risus. Donec vitae justo sed augue
                       sollicitudin dignissim ut vitae ipsum. Proin at imperdiet
                       ante, non blandit mauris. Nullam eu lobortis justo.
                     </p>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Fusce vestibulum blandit justo non rhoncus. Maecenas eget
                       felis id orci ultricies frin gilla. Aliquam suscipit enim
                       felis. Praesent arcu dui, rutrum et molestie sed, volutpat
@@ -147,7 +145,7 @@ function Details() {
                       malesuada fames ac ante ipsum primis in faucibus.
                     </p>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Fusce elementum placerat tellus id. Nulla sit amet pretium
                       enim, in vehicula ligula. Proin nec malesuada liberoque
                       blandit. Sed condimentum neque ligula, id dapibus enim
@@ -156,34 +154,34 @@ function Details() {
                       nulla magna non tortor.
                     </p>
 
-                    <h2 class="w-full float-left text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
+                    <h2 className="w-full float-left text-xl leading-normal mb-2 font-semibold text-gray-800 dark:text-gray-100">
                       Live as if you were to die tomorrow.
                     </h2>
 
-                    <p class="mb-5">
-                      Nullam ut tempus mauris. Class aptent taciti sociosqu ad
-                      litora torquent per conubia nostra, per inceptos
+                    <p className="mb-5">
+                      Nullam ut tempus mauris. className aptent taciti sociosqu
+                      ad litora torquent per conubia nostra, per inceptos
                       himenaeos. Vivamus libero dolor, condimentum eu augue et,
                       placerat tempus risus. Quisque massa purus, ullamcorper
                       eget ipsum et, eleifend suscipit mi. Duis auctor tortor a
                       dui accumsan, sed semper nunc iaculis.
                     </p>
 
-                    <figure class="lg:float-right text-center lg:text-right mr-0 lg:-mr-4 ml-7 mb-7">
+                    <figure className="lg:float-right text-center lg:text-right mr-0 lg:-mr-4 ml-7 mb-7">
                       <img
-                        class="max-w-full h-auto mx-auto"
+                        className="max-w-full h-auto mx-auto"
                         src="src/img/dummy/post3.jpg"
                         alt="Image description"
                       />
                       <figcaption>Align right images</figcaption>
                     </figure>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Mauris eget lectus et nisi commodo tristique. Aenean eget
                       ornare dui. Maecenas bibendum lacus ante, vitae
                       pellentesque ex elementum convallis.
                     </p>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Mauris lobortis leo a neque congue, quis pretium libero
                       efficitur. Sed congue ipsum ac mollis egestas. Sed
                       venenatis nisl nibh, in blandit nisi varius sed.
@@ -192,18 +190,18 @@ function Details() {
                       Fusce elementum placerat tellus id blandit.
                     </p>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Sed condimentum neque ligula, id dapibus enim ornare id.
                       Duis porttitor, risus vehicula convallis sagittis, ligula
                       nisi iaculis libero.
                     </p>
 
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Morbi at lacinia risus. Donec vitae justo sed augue
                       sollicitudin dignissim ut vitae ipsum. Proin at imperdiet
                       ante, non blandit mauris. Nullam eu lobortis justo.
                     </p>
-                    <p class="mb-5">
+                    <p className="mb-5">
                       Fusce vestibulum blandit justo non rhoncus. Maecenas eget
                       felis id orci ultricies frin gilla. Aliquam suscipit enim
                       felis. Praesent arcu dui, rutrum et molestie sed, volutpat
@@ -215,48 +213,48 @@ function Details() {
                 </div>
               </div>
             </div>
-            <div class="flex-shrink max-w-full w-full lg:w-1/3 lg:pl-8 lg:pt-14 lg:pb-8 order-first lg:order-last">
-              <div class="w-full bg-white">
-                <div class="mb-6">
-                  <div class="p-4 bg-gray-100">
-                    <h2 class="text-lg font-bold">Most Popular</h2>
+            <div className="flex-shrink max-w-full w-full lg:w-1/3 lg:pl-8 lg:pt-14 lg:pb-8 order-first lg:order-last">
+              <div className="w-full bg-white">
+                <div className="mb-6">
+                  <div className="p-4 bg-gray-100">
+                    <h2 className="text-lg font-bold">Most Popular</h2>
                   </div>
-                  <ul class="post-number">
-                    <li class="border-b border-gray-100 hover:bg-gray-50">
+                  <ul className="post-number">
+                    <li className="border-b border-gray-100 hover:bg-gray-50">
                       <a
-                        class="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                        className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                         href="#"
                       >
                         Why the world would end without political polls
                       </a>
                     </li>
-                    <li class="border-b border-gray-100 hover:bg-gray-50">
+                    <li className="border-b border-gray-100 hover:bg-gray-50">
                       <a
-                        class="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                        className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                         href="#"
                       >
                         Meet The Man Who Designed The Ducati Monster
                       </a>
                     </li>
-                    <li class="border-b border-gray-100 hover:bg-gray-50">
+                    <li className="border-b border-gray-100 hover:bg-gray-50">
                       <a
-                        class="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                        className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                         href="#"
                       >
                         2020 Audi R8 Spyder spy shots release
                       </a>
                     </li>
-                    <li class="border-b border-gray-100 hover:bg-gray-50">
+                    <li className="border-b border-gray-100 hover:bg-gray-50">
                       <a
-                        class="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                        className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                         href="#"
                       >
                         Lamborghini makes Huracán GT3 racer faster for 2019
                       </a>
                     </li>
-                    <li class="border-b border-gray-100 hover:bg-gray-50">
+                    <li className="border-b border-gray-100 hover:bg-gray-50">
                       <a
-                        class="text-lg font-bold px-6 py-3 flex flex-row items-center"
+                        className="text-lg font-bold px-6 py-3 flex flex-row items-center"
                         href="#"
                       >
                         ZF plans $14 billion autonomous vehicle push, concept
@@ -267,14 +265,14 @@ function Details() {
                 </div>
               </div>
 
-              <div class="text-sm py-6 sticky">
-                <div class="w-full text-center">
-                  <a class="uppercase" href="#">
+              <div className="text-sm py-6 sticky">
+                <div className="w-full text-center">
+                  <a className="uppercase" href="#">
                     Advertisement
                   </a>
                   <a href="#">
                     <img
-                      class="mx-auto"
+                      className="mx-auto"
                       src="src/img/ads/250.jpg"
                       alt="advertisement area"
                     />
